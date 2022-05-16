@@ -1,0 +1,141 @@
+
+       #log{
+        overflow: hidden;
+      }
+      
+      body{
+          margin: 0;
+          position: relative;
+          background-color: rgba(243, 82, 8, 0.13);
+      }
+      h1{
+          font-family: "Berlin Sans FB";
+          font-size: 6rem;
+          text-align: center;
+          color: coral;
+      }
+
+      #register-div{
+          position:relative;
+        background-color: #F9F3DF;
+        box-shadow: 10px 10px 10px 10px #5E454B;
+        border-style: solid;
+        border-color: #F9F3DF;
+        top:100px;
+          bottom:100px;
+          left:200px;
+          margin-right: 100px;
+      }
+      
+      .login-div{
+        top: 100px;
+        width:60%;
+        display: inline-block;
+      }
+      
+      .sign-up{
+        display: inline-block;
+        color: white;
+        width: 39%;
+        height: 800px;
+        bottom: 250px;
+        left: 12px;
+      }
+      
+      
+      input{
+          margin: 15px;
+         background-color: aliceblue;
+          width: 300px;
+          height: 25px;
+          border-radius: 5px;
+          border: rebeccapurple;
+      
+      }
+      .gen{
+          width: 30px;
+      }
+      div{
+          text-align: center;
+          font-size: 22px;
+          font-family: "Arial Black";
+          position: relative;
+      }
+      
+      .login-word{
+      margin-top: 0;
+      }
+      p{
+          font-size: 20px;
+          color: red;
+      }
+      a:hover{
+          color: red;
+      }
+      button:hover{
+          color: rebeccapurple;
+      }
+      button{
+          border-radius:5px ;
+      }
+      
+      .sign-div{
+        top: 200px;
+      }
+      
+      #social{
+        top: 50px;
+      }
+      
+      .submit{
+        background-color: coral;
+        display: block;
+        margin: auto;
+        position: relative;
+        top: 50px;
+      }
+      
+      .forgot-pass{
+        position: relative;
+        top: 100px;
+      }
+
+       * {
+           box-sizing: border-box;
+       }
+
+       .row::after {
+           content: "";
+           clear: both;
+           display: block;
+       }
+
+       [class*="col-"] {
+           float: left;
+           padding: 15px;
+       }
+
+
+       /* For desktop: */
+       .col-1 {width: 8.33%;}
+       .col-2 {width: 16.66%;}
+       .col-3 {width: 25%;}
+       .col-4 {width: 33.33%;}
+       .col-5 {width: 41.66%;}
+       .col-6 {width: 50%;}
+       .col-7 {width: 58.33%;}
+       .col-8 {width: 66.66%;}
+       .col-9 {width: 75%;}
+       .col-10 {width: 83.33%;}
+       .col-11 {width: 91.66%;}
+       .col-12 {width: 100%;}
+
+       @media only screen and (max-width: 768px) {
+           /* For mobile phones: */
+           [class*="col-"] {
+               width: 100%;
+
+           }
+      
+
+          
